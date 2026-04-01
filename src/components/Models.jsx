@@ -15,7 +15,9 @@ const Models = ({modelPromise}) => {
                     <p>{model.description}</p>
                     <div className='text-[30px]'>${model.price}<span className='text-sm text-[#627382]'>/Mo</span></div>
                     <div>
-                        <p>{model.features}</p>
+                        <p><span className='text-green-500'>✔</span> {model.feature_1}</p>
+                        <p><span className='text-green-500'>✔</span> {model.feature_2}</p>
+                        <p><span className='text-green-500'>✔</span> {model.feature_3}</p>
                     </div>
                     <button className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-4xl">Buy Now</button>
                 </div>
