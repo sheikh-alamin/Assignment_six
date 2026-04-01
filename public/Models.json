@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and\nmarketing copy in seconds with advanced AI.",
+    "price": 29,
+    "image": "https://img.icons8.com/fluency/96/edit-file.png",
+    "status": "best seller"
+  },
+  {
+    "id": 2,
+    "title": "Design Templates Pack",
+    "description": "2000+ premium templates for social media,\npresentations, and marketing materials.",
+    "price": 49,
+    "image": "https://img.icons8.com/fluency/96/design.png",
+    "status": "popular"
+  },
+  {
+    "id": 3,
+    "title": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos,\nvideos, and graphics for your projects.",
+    "price": 19,
+    "image": "https://img.icons8.com/fluency/96/camera.png",
+    "status": "new"
+  },
+  {
+    "id": 4,
+    "title": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline\nyour workflow with powerful tools.",
+    "price": 79,
+    "image": "https://img.icons8.com/fluency/96/settings.png",
+    "status": "popular"
+  },
+  {
+    "id": 5,
+    "title": "Resume Builder Pro",
+    "description": "Create professional resumes and cover\nletters that land interviews.",
+    "price": 15,
+    "image": "https://img.icons8.com/fluency/96/resume.png",
+    "status": "new"
+  },
+  {
+    "id": 6,
+    "title": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social\nmedia content across all platforms.",
+    "price": 39,
+    "image": "https://img.icons8.com/fluency/96/share.png",
+    "status": "best seller"
+  }
+]
