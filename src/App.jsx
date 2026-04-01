@@ -1,5 +1,6 @@
 
 import './App.css'
+import Basket from './components/Basket'
 import Cards from './components/Cards'
 import Count from './components/Count'
 import Footer from './components/Footer'
@@ -26,7 +27,16 @@ function App() {
     <Hero/>
     <Count/>
     <Cards/>
+
+    <div className='max-w-11/12 mx-auto'>
+      <div className="tabs tabs-box justify-center bg-transparent shadow-none">
+        <input type="radio" name="my_tabs_1" className="tab rounded-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white w-30" aria-label="Products" defaultChecked/>
+        <input type="radio" name="my_tabs_1" className="tab rounded-4xl w-30 border" aria-label="Cart" />
+      </div>
+    </div>
+
     <Models modelPromise={modelPromise}/>
+    <Basket/>
     <Steps/>
     <Pricing/>
     <Transform/>
