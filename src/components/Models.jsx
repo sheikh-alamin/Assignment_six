@@ -10,9 +10,9 @@ const Models = ({modelPromise}) => {
             <div>
                 <div className='relative space-y-2 border border-gray-300 shadow-md mt-10 rounded-2xl p-10'>
                     <div className="absolute top-4 right-4 bg-yellow-400 text-black text-xs font-bold px-3 py-1 rounded-full">{model.status}</div>
-                    <img src={model.image} alt="" />
-                    <h3>{model.title}</h3>
-                    <p>{model.description}</p>
+                    <img src={model.image} className='w-10' alt="" />
+                    <h3 className='font-bold text-[24px]'>{model.title}</h3>
+                    <p className='text-[#627382]'>{model.description}</p>
                     <div className='text-[30px]'>${model.price}<span className='text-sm text-[#627382]'>/Mo</span></div>
                     <div>
                         <p><span className='text-green-500'>✔</span> {model.feature_1}</p>
