@@ -17,7 +17,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="functions flex items-center gap-4 cursor-pointer">
-          <i class="fa-solid fa-cart-shopping"></i>
+          <i className="fa-solid fa-cart-shopping"></i>
           <p>Login</p>
           <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-4xl">Get Started</button>
         </div>

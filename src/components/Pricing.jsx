@@ -29,7 +29,7 @@ const Pricing = () => {
                         <p>Best for professionals</p>
                         <div className='text-[30px]'>$29<span className='text-sm'>/Monthly</span></div>
                     </div>
-                    <ul class="space-y-2 mb-6 text-white">
+                    <ul className="space-y-2 mb-6 text-white">
                         <li>✔ Access to all premium tools</li>
                         <li>✔ Unlimited templates</li>
                         <li>✔ Priority support</li>

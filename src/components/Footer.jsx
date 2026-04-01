@@ -38,15 +38,15 @@ const Footer = () => {
                 </div>
                 <div>
                     <h3 className='text-[22px]'>Social Links</h3>
-                    <i class="fa-brands fa-instagram cursor-pointer"></i>
-                    <i class="fa-brands fa-facebook ml-2 cursor-pointer"></i>
-                    <i class="fa-brands fa-x-twitter ml-2 cursor-pointer"></i>
+                    <i className="fa-brands fa-instagram cursor-pointer"></i>
+                    <i className="fa-brands fa-facebook ml-2 cursor-pointer"></i>
+                    <i className="fa-brands fa-x-twitter ml-2 cursor-pointer"></i>
                 </div>
                 
             </div>
-            <div class="max-w-11/12 mx-auto text-white mt-10 border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center text-sm">
+            <div className="max-w-11/12 mx-auto text-white mt-10 border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center text-sm">
                     <p>© 2026 DigiTools. All rights reserved.</p>
-                <div class="flex space-x-4 mt-4 md:mt-0">
+                <div className="flex space-x-4 mt-4 md:mt-0">
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Service</a>
                     <a href="#">Cookies</a>

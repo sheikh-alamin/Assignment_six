@@ -14,7 +14,7 @@ const hero = () => {
                     </div>
                     <div className='flex gap-3'>
                         <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-4xl">Explore Products</button>
-                        <button className="btn btn-outline btn-primary rounded-4xl"><i class="fa-solid fa-play"></i> Watch Demo</button>
+                        <button className="btn btn-outline btn-primary rounded-4xl"><i className="fa-solid fa-play"></i> Watch Demo</button>
                     </div>
                     
                 </div>
