@@ -5,8 +5,9 @@ const Basket = ({baskets, setBaskets}) => {
     const handlePayment = () => {
         setBaskets([])
     }
-    const handleDelete = () => {
-        console.log("deleted")
+    const handleDelete = (item) => {
+        const filteredArray = baskets.filter (c => c.id !== item.id)
+        setBaskets(filteredArray)
     }
 
     return (
@@ -25,7 +26,7 @@ const Basket = ({baskets, setBaskets}) => {
                                         <h6 className='text-[#627382]'>$ {item.price}</h6>
                                     </div>
                                 </div>
-                                <div><button onClick={handleDelete} className="btn btn-outline btn-error border-none">Remove</button></div>
+                                <div><button onClick={() => handleDelete (item)} className="btn btn-outline btn-error border-none">Remove</button></div>
                             </div>
                         </div> )
                     }
