@@ -14,7 +14,7 @@ const Pricing = () => {
                         <p className='text-[#627382]'>Perfect for getting started</p>
                         <div className='text-[30px]'>$0<span className='text-sm text-[#627382]'>/Monthly</span></div>
                     </div>
-                    <ul class="space-y-2 mb-6  text-[#627382]">
+                    <ul className="space-y-2 mb-6  text-[#627382]">
                         <li><span className='text-green-500'>✔</span> Access to 10 free tools</li>
                         <li><span className='text-green-500'>✔</span> Basic templates</li>
                         <li><span className='text-green-500'>✔</span> Community support</li>
@@ -23,7 +23,7 @@ const Pricing = () => {
                     <button className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-4xl">Get Started</button>
                 </div>
                 <div className='bg-linear-to-r from-purple-600 to-purple-800 text-white p-5 rounded-md relative space-y-2'>
-                    <div class="absolute -top-3 right-43 bg-yellow-100 text-yellow-600 text-xs font-bold px-3 py-1 rounded-full">Most Popular</div>
+                    <div className="absolute -top-3 right-43 bg-yellow-100 text-yellow-600 text-xs font-bold px-3 py-1 rounded-full">Most Popular</div>
                     <div className='space-y-2'>
                         <h2 className='font-bold text-[24px]'>Pro</h2>
                         <p>Best for professionals</p>
@@ -45,7 +45,7 @@ const Pricing = () => {
                         <p className='text-[#627382]'>For teams and businesses</p>
                         <div className='text-[30px]'>$99<span className='text-sm'>/Monthly</span></div>
                     </div>
-                    <ul class="space-y-2 mb-6  text-[#627382]">
+                    <ul className="space-y-2 mb-6  text-[#627382]">
                         <li><span className='text-green-500'>✔</span> Everything in Pro</li>
                         <li><span className='text-green-500'>✔</span> Team collaboration</li>
                         <li><span className='text-green-500'>✔</span> Custom integrations</li>
