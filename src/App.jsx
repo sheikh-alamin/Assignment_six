@@ -13,7 +13,7 @@ import Transform from './components/Transform'
 import Hero from './components/hero'
 
 const getModels = async () => {
-  const res = await fetch("/public/Models.json")
+  const res = await fetch("/Models.json")
   return res.json()
 }
 
