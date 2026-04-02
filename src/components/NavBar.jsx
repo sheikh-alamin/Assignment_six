@@ -1,6 +1,7 @@
 import React from "react";
-
+// import { useState } from 'react'
 const Navbar = () => {
+// const [baskets, setBaskets] = useState ([]);
   return (
     <div className=" bg-base-100 shadow-sm">
       <div className="flex justify-between items-center py-2 max-w-11/12 mx-auto">
@@ -22,7 +23,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="functions flex items-center gap-4 cursor-pointer">
-          <i className="fa-solid fa-cart-shopping"></i>
+          <i className="fa-solid fa-cart-shopping relative"></i>
           <p>Login</p>
           <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-4xl">Get Started</button>
         </div>

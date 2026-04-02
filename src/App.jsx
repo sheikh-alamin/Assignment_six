@@ -6,7 +6,7 @@ import Cards from './components/Cards'
 import Count from './components/Count'
 import Footer from './components/Footer'
 import Models from './components/Models'
-import Navbar from './components/Navbar'
+import Navbar from './components/NavBar'
 import Pricing from './components/Pricing'
 import Steps from './components/Steps'
 import Transform from './components/Transform'
@@ -35,8 +35,8 @@ function App() {
 
     <div className='max-w-11/12 mx-auto'>
       <div className="tabs tabs-box justify-center bg-transparent shadow-none">
-        <input type="radio" name="my_tabs_1" className="tab rounded-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white w-30" aria-label="Products" defaultChecked onClick={()=> setActiveTab("products")}/>
-        <input type="radio" name="my_tabs_1" className="tab rounded-4xl w-30 border" aria-label={`Cart (${baskets.length})`} onClick={()=> setActiveTab("cart")}/>
+        <input type="radio" name="my_tabs_1" className={`tab rounded-4xl ${activeTab === "products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "bg-white text-black shadow-md"}   w-30`} aria-label="Products" defaultChecked onClick={()=> setActiveTab("products")}/>
+        <input type="radio" name="my_tabs_1" className={`tab rounded-4xl ${activeTab === "cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "bg-white text-black shadow-md"}   w-30`} aria-label={`Cart (${baskets.length})`} onClick={()=> setActiveTab("cart")}/>
       </div>
     </div>
 
