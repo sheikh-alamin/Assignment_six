@@ -7,7 +7,10 @@ const Cart = ({model, baskets, setBaskets}) => {
     const handleCarts = () => {
         setIsBuying(true)
         const isFound = baskets.find (item => item.id === model.id)
-        console.log(isFound)
+        if (isFound) {
+            toast.error("Item already added!")
+            return;
+        }
         setBaskets([...baskets, model])
         toast("Item added to cart!")
     }
