@@ -1,13 +1,16 @@
+import { toast } from "react-toastify";
 
 
 const Basket = ({baskets, setBaskets}) => {
     const totalPrice = baskets.reduce((sum, item) => sum + item.price, 0)
     const handlePayment = () => {
-        setBaskets([])
+        setBaskets([]);
+        toast("Payment successful!")
     }
     const handleDelete = (item) => {
         const filteredArray = baskets.filter (c => c.id !== item.id)
-        setBaskets(filteredArray)
+        setBaskets(filteredArray);
+        toast("Item deleted!")
     }
 
     return (

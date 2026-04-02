@@ -1,11 +1,15 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 
 const Cart = ({model, baskets, setBaskets}) => {
     const [isBuying, setIsBuying] = useState(false)
     const handleCarts = () => {
         setIsBuying(true)
+        const isFound = baskets.find (item => item.id === model.id)
+        console.log(isFound)
         setBaskets([...baskets, model])
+        toast("Item added to cart!")
     }
     return (
             <div>
