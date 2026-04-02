@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-[#101727] pt-20 pb-10'>
-            <div className='text-white grid grid-cols-5 gap-10 max-w-11/12 mx-auto'>
+            <div className='text-white grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 max-w-11/12 mx-auto'>
                 <div>
                     <h1 className="text-white font-bold text-[30px]">DigiTools</h1>
                     <p className='font-thin'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>

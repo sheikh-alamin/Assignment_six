@@ -7,7 +7,12 @@ const Navbar = () => {
         <div className="logo">
           <span className="skeleton skeleton-text bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold text-[40px]">DigiTools</span>
         </div>
-        <div className="menubar">
+        <div className="md:hidden">
+          <button className="text-2xl">
+            <i className="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div className="menubar hidden md:flex">
           <ul className="flex gap-4 cursor-pointer">
             <li>Products</li>
             <li>Features</li>
