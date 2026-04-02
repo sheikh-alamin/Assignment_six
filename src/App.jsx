@@ -41,7 +41,7 @@ function App() {
     </div>
 
     { activeTab === "products" && <Models modelPromise={modelPromise} baskets={baskets} setBaskets={setBaskets} />}
-    { activeTab === "cart" && <Basket baskets={baskets} />}
+    { activeTab === "cart" && <Basket baskets={baskets} setBaskets={setBaskets} />}
     <Steps/>
     <Pricing/>
     <Transform/>
