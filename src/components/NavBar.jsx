@@ -4,7 +4,7 @@ const Navbar = () => {
 // const [baskets, setBaskets] = useState ([]);
   return (
     <div className=" bg-base-100 shadow-sm">
-      <div className="flex justify-between items-center py-2 max-w-11/12 mx-auto">
+      <div className="flex flex-col md:flex-row justify-center md:justify-between items-center py-2 max-w-11/12 mx-auto">
         <div className="logo">
           <span className="skeleton skeleton-text bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold text-[40px]">DigiTools</span>
         </div>
